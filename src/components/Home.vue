@@ -3,7 +3,7 @@ const whatsappNumber = '+393472973026'
 </script>
 
 <template>
-  <section id="home" class="bg-[#D6D4C8] text-[#66635A]">
+  <section class="bg-[#D6D4C8] text-[#66635A]">
     <div class="mx-auto flex max-w-6xl flex-col gap-10 px-4 py-16 sm:px-6 lg:flex-row lg:items-center lg:px-8 lg:py-24">
       <div class="flex-1 max-w[30%]">
         <h1 class="text-4xl font-semibold tracking-tight sm:text-5xl">Giuseppe Marchi</h1>

@@ -5,24 +5,24 @@ import AChiMiRivolgo from './components/AChiMiRivolgo.vue'
 </script>
 
 <template>
-  <div class="min-h-screen bg-[#F9F4EE] text-[#66635A]">
+  <div id="home" class="min-h-screen bg-[#F9F4EE] text-[#66635A]">
     <Navbar />
 
     <main>
       <Home />
       <AChiMiRivolgo />
 
-      <section id="servizi" class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+      <section id="servizi" class="scroll-mt-24 mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
       </section>
 
-      <section id="come-funziona" class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+      <section id="come-funziona" class="scroll-mt-24 mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
       </section>
 
-      <section id="bio" class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+      <section id="bio" class="scroll-mt-24 mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
       </section>
     </main>
 
-    <footer id="contatti" class="border-t border-stone-200 bg-[#F9F4EE]">
+    <footer id="contatti" class="scroll-mt-24 border-t border-stone-200 bg-[#F9F4EE]">
       <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8"></div>
     </footer>
   </div>

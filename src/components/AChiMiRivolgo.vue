@@ -16,7 +16,7 @@ const cards = [
 </script>
 
 <template>
-  <section id="a-chi-mi-rivolgo" class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+  <section id="a-chi-mi-rivolgo" class="scroll-mt-20 mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
     <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">A chi mi rivolgo</h2>
 
     <div class="mt-10 grid gap-6 md:grid-cols-3 xl:grid-cols-3">
