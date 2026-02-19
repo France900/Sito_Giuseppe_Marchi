@@ -7,6 +7,7 @@ const menuItems = [
   { label: 'Home', href: '#home' },
   { label: 'A chi mi rivolgo', href: '#a-chi-mi-rivolgo' },
   { label: 'Servizi', href: '#servizi' },
+  { label: 'Il mio approccio', href: '#il-mio-approccio' },
   { label: 'Come funziona', href: '#come-funziona' },
   { label: 'Bio', href: '#bio' },
   { label: 'Contatti', href: '#contatti' },
