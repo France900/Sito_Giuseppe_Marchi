@@ -20,7 +20,7 @@ const steps = [
 </script>
 
 <template>
-  <section id="come-funziona" class="scroll-mt-20 bg-[#EEE4D7]">
+  <section id="come-funziona" class="scroll-mt-20">
     <div class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
       <p class="text-sm font-semibold uppercase tracking-[0.14em] ">Percorso terapeutico</p>
       <h2 class="mt-3 text-3xl font-semibold tracking-tight  sm:text-4xl">Come funziona</h2>

@@ -7,7 +7,7 @@ const services = [
 </script>
 
 <template>
-  <section id="servizi" class="scroll-mt-20 bg-[#B5A085]">
+  <section id="servizi" class="scroll-mt-20 bg-[#F4EEE5]">
     <div class="mx-auto flex max-w-6xl flex-col gap-10 px-4 py-16 sm:px-6 lg:flex-row lg:items-center lg:px-8 lg:py-20">
       <div class="flex-1">
         <h2 class="text-3xl font-semibold tracking-tight sm:text-4xl">Servizi</h2>

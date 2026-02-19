@@ -9,7 +9,7 @@ const menuItems = [
   { label: 'Servizi', href: '#servizi' },
   { label: 'Il mio approccio', href: '#il-mio-approccio' },
   { label: 'Come funziona', href: '#come-funziona' },
-  { label: 'Bio', href: '#bio' },
+  { label: 'Biografia', href: '#bio' },
   { label: 'Contatti', href: '#contatti' },
 ]
 
@@ -30,14 +30,14 @@ function closeMobileMenu() {
 
       <ul class="hidden items-center gap-6 md:flex">
         <li v-for="item in menuItems" :key="item.href">
-          <a :href="item.href" class="text-sm font-medium text-stone-700 transition hover:text-stone-900">
+          <a :href="item.href" class="text-sm font-medium transition">
             {{ item.label }}
           </a>
         </li>
       </ul>
 
       <button
-        class="inline-flex items-center justify-center rounded-md border border-stone-300 px-4 py-2 text-base font-medium text-stone-800 md:hidden"
+        class="inline-flex items-center justify-center rounded-md border border-stone-300 px-4 py-2 text-base font-medium md:hidden"
         type="button"
         :aria-expanded="isMobileMenuOpen"
         aria-controls="mobile-menu"
@@ -50,13 +50,13 @@ function closeMobileMenu() {
     <div
       id="mobile-menu"
       v-show="isMobileMenuOpen"
-      class="fixed inset-0 z-40 border-t border-stone-200 bg-[#F9F4EE] pt-24 md:hidden"
+      class="fixed inset-0 z-40 border-t border-stone-200 bg-[#F9F4EE] md:hidden"
     >
       <ul class="flex h-full flex-col gap-3 px-6 py-6">
         <li v-for="item in menuItems" :key="item.href">
           <a
             :href="item.href"
-            class="block rounded-xl border border-stone-300 px-4 py-4 text-2xl font-semibold text-stone-700 hover:bg-stone-100 hover:text-stone-900"
+            class="block rounded-xl border border-stone-300 px-4 py-4 text-2xl font-semibold hover:bg-stone-100"
             @click="closeMobileMenu"
           >
             {{ item.label }}

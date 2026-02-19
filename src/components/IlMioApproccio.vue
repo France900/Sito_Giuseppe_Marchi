@@ -12,7 +12,7 @@ const approachAreas = [
 </script>
 
 <template>
-  <section id="il-mio-approccio" class="scroll-mt-20 bg-[#F4EEE5]">
+  <section id="il-mio-approccio" class="scroll-mt-20 bg-[#F1E7D8]">
     <div class="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
       <p class="text-sm font-semibold uppercase tracking-[0.14em]">Metodo di lavoro</p>
       <h2 class="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">Il mio approccio</h2>
